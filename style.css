@@ -1,0 +1,120 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #f7e6f5;
+    opacity: 0.9;
+    background-image: radial-gradient(#075375 0.45px, #f7e6f5 0.45px);
+    background-size: 9px 9px;
+
+}
+#container {
+    background-color: #f7e6f5;
+
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    outline: black solid 2px;
+
+}
+
+.rows {
+    width: 400px;
+    height: 200px;
+
+    margin: 0px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    outline: black solid 1px;
+
+}
+.child {   
+    outline: black solid 1px;
+    transition-duration: 0.3s;
+
+    height: 200px;
+    width: 200px;
+
+}
+
+#myRange{
+    -webkit-appearance: none;
+  width: 40%;
+  height: 10px;
+  background: #f7e6f5;
+  outline: none;
+  border: 2px solid purple;
+  border-radius: 8px;
+}
+
+
+
+.options{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.ml10 {
+    position: relative;
+    font-weight: 900;
+    font-size: 2em;
+  }
+  
+  .ml10 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml10 .letter {
+    display: inline-block;
+    line-height: 1em;
+    transform-origin: 0 0;
+  }
+
+  .letters{
+    font-family: 'Courier New', Courier, monospace;
+
+    font-weight: 100;
+    font-size: medium;
+  }
+
+  h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px purple,
+    1px 1px 1px purple;
+  }
+
+  button {
+    border-radius: 4px;
+    border: 2px solid;
+    color: purple;
+    background-color: #f7e6f5;
+    height: 30px;
+    width: 70px;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    background-color: #f7e6f5; /* Green */
+    color: steelblue;
+}
+  
