@@ -117,4 +117,21 @@ button:hover {
     background-color: #f7e6f5; /* Green */
     color: steelblue;
 }
+
+.footer {
+  margin-top: 50px;
+  align-self: center;
+
+  font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px green,
+    1px 1px 1px purple;
+}
+
+
+a:link {color: mediumvioletred;text-decoration:none;}
+a:visited {color:mediumorchid;text-decoration:none;}
+a:hover {text-decoration:underline;}
+
   
